@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>INSD — Create Tomorrow</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/fontawesome.min.css" integrity="sha512-M5Kq4YVQrjg5c2wsZSn27Dkfm/2ALfxmun0vUE3mPiJyK53hQBHYCVAtvMYEC7ZXmYLg8DVG4tF8gD27WmDbsg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav fixed-top">
+    <div class="logo">
+        <img src="img/INSD%20Logo.svg"></div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Programs</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+        <button class="cta">Apply Now</button>
+        <button class="menu-btn" id="openPanel"><i class="fa-jelly-duo fa-regular fa-bars"></i></button>
+    </div>
+
+    <!-- BACKDROP -->
+    <div class="backdrop" id="backdrop"></div>
+
+    <!-- OFFCANVAS PANEL -->
+    <aside class="offcanvas" id="offcanvas">
+        <button class="close-btn" id="closePanel">✕</button>
+        <div class="logo">
+            <img src="img/INSD%20Logo.svg"></div>
+
+        <nav class="offcanvas-nav">
+            <a href="#">Home</a>
+            <a href="#">Programs</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="offcanvas-actions">
+            <button id="themeToggle" class="secondary-btn">Dark Mode</button>
+            <button class="primary-btn">Apply Now →</button>
+        </div>
+    </aside>
+
+
+</header>
+
+<!-- HERO -->
+<section class="hero reveal">
+    <div class="hero-text">
+        <h1>CREATE<br><span>TOMORROW</span></h1>
+        <button class="primary-btn">Explore Programs →</button>
+
+        <div class="stats">
+            <div><strong>9</strong><br><span>Disciplines</span></div>
+            <div><strong>25+</strong><br><span>Countries</span></div>
+            <div><strong>Award</strong><br><span>Winning Faculty</span></div>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="img/work-17.jpg" />
+    </div>
+</section>
+
+<!-- PHILOSOPHY -->
+<section class="philosophy reveal">
+    <h2>We don’t teach design.<br><span>We nurture creativity.</span></h2>
+
+    <div class="pillars">
+        <div>
+            <h3>Think.</h3>
+            <p>Question conventions. Build perspective.</p>
+        </div>
+        <div>
+            <h3>Make.</h3>
+            <p>Learn by doing. Experiment boldly.</p>
+        </div>
+        <div>
+            <h3>Innovate.</h3>
+            <p>Design systems that matter.</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROGRAMS -->
+<section class="programs reveal">
+    <div class="section-head">
+        <h2>Explore Our Programs</h2>
+    </div>
+
+    <div class="program-grid">
+        <div class="program-card">Fashion Design</div>
+        <div class="program-card">Interior Design</div>
+        <div class="program-card">Graphic Design</div>
+        <div class="program-card">Luxury Auctions</div>
+        <div class="program-card">Animation</div>
+        <div class="program-card">Jewelry Design</div>
+        <div class="program-card">Textile Design</div>
+        <div class="program-card">Luxury Hospitality</div>
+    </div>
+
+</section>
+
+<!-- STUDENT WORK -->
+<section class="student-work reveal">
+    <h2>Student Work</h2>
+    <p>Ideas matter here.</p>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+        <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93">
+        <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b">
+    </div>
+</section>
+
+<!-- STUDY ABROAD -->
+<section class="abroad reveal">
+    <h2>Study Abroad</h2>
+
+    <div class="cities">
+        <span>Paris</span>
+        <span>Milan</span>
+        <span>New York</span>
+    </div>
+
+    <button class="primary-btn">Learn More →</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
